@@ -55,9 +55,17 @@ button:active {
   border-color: #a80041;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .projects {
   margin: 1rem;
   border: 1px solid #ff0062;
+  width: 40%;
 }
 
 .projects header {
@@ -124,4 +132,5 @@ button:active {
   padding: 1rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
+  width: 30%;
 }
